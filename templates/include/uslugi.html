@@ -1,0 +1,50 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+ <div class="cardsu">
+<!-- card -->
+   {% for product in products_list %}
+  <a href="{{ product.get_absolute_url }}">
+    <div class="cardu middleu">
+      <div class="frontu">
+        <img src="{{product.picture.url}}">
+        <h3 class="titleu">{{ product.name }}</h3>
+      </div>
+      <div class="backu">
+        <div class="back-contentu">
+          <img src="{{product.picture.url}}">
+          <h3 class="infou">{{product.description}}</h3>
+        </div>
+      </div>
+    </div>
+  </a>
+   {% endfor %}
+<!--  <a href="">-->
+<!--    <div class="cardu middleu">-->
+<!--      <div class="frontu">-->
+<!--        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbalkon4life.ru%2Fwp-content%2Fuploads%2F2019%2F07%2Fsam-0731.jpg&f=1&nofb=1">-->
+<!--        <h3 class="titleu">Пластиквое окна</h3>-->
+<!--      </div>-->
+<!--      <div class="backu">-->
+<!--        <div class="back-contentu">-->
+<!--          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbalkon4life.ru%2Fwp-content%2Fuploads%2F2019%2F07%2Fsam-0731.jpg&f=1&nofb=1">-->
+<!--          <h3 class="infou">При выборе окна для вашего дома, офиса зданий вам необходимо посетить наш сайт и увидеть все наши окна и их уникальность</h3>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a href="">-->
+<!--    <div class="cardu middleu">-->
+<!--      <div class="frontu">-->
+<!--        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fogodom.ru%2Fwp-content%2Fuploads%2F2015%2F08%2Frazmer-shlakobloka-kalkulyator-1.jpg&f=1&nofb=1">-->
+<!--        <h3 class="titleu">Шлакоблок</h3>-->
+<!--      </div>-->
+<!--      <div class="backu">-->
+<!--        <div class="back-contentu">-->
+<!--          <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fogodom.ru%2Fwp-content%2Fuploads%2F2015%2F08%2Frazmer-shlakobloka-kalkulyator-1.jpg&f=1&nofb=1">-->
+<!--          <h3 class="infou">У нас имеется большой ассортимент по выбору шлакоблока. Посетите наш котолог и позвоните по указанному номеру для заказа</h3>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </a>-->
+<!-- card end -->
+</div>

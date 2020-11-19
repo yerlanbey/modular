@@ -1,0 +1,14 @@
+footer{
+	margin-top: 100px;
+	background-color:#fff
+
+footer a{
+	color: yellow;
+}
+.logo-in-footer{
+
+  color:yellow;
+}
+*{
+	text-decoration: none;
+}

@@ -1,0 +1,55 @@
+{% load static %}
+
+<div class="container pt-5">
+        <div class="row justify-content-between">
+        <div class="col logo-h">
+          <p class="logo-hh" style="font-family: 'Krona One', sans-serif;">MODULAR<span class="logo-in" style="font-family: 'Krona One', sans-serif;color:#D2B48C">.KZ</span></p>
+        </div>
+
+            <div class="social-h col d-flex justify-content-end" style="margin-bottom:10px;">
+          <div class="social-2 mb-0 d-flex">
+
+            <a href="https://www.instagram.com/modular.kz/" class="d-flex align-items-center justify-content-center fa fa-instagram"></a>
+            <a href="#" class="d-flex align-items-center justify-content-center fa fa-vk"></a>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="siteHeader">
+  <!-- This section gets pushed to the left side-->
+  <div class="siteHeader__section" >
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'index_page' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Главная</a></div>
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'about_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">О нас</a></div>
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'modern_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Современные тенденций</a></div>
+      <div class="siteHeader__item siteHeaderButton"><a href="{% url 'brand_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Создай свой бренд</a></div>
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'all_products_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Каталог</a></div>
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'price_20_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Прайс</a></div>
+    <div class="siteHeader__item siteHeaderButton"><a href="{% url 'contacts_url' %}" class="nav-link" style="color:#D9E9EF;font-family: 'Comfortaa', cursive;font-size:12px;">Контакты</a></div>
+  </div>
+  <!-- This section gets pushed to the right side-->
+  <div class="siteHeader__section">
+    <div class="siteHeader__item siteHeaderButton">
+        <div class="search-h">
+        <div class="search-2" onclick="openSearch()">
+         <i class="fa fa-search" style="font-size:25px;color:white"></i>
+        </div>
+
+        <div id="myOverlay" class="overlay">
+          <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+          <div class="overlay-content" style="z-index:10;">
+            <form action="{% url 'all_products_url' %}">
+              <div id="overlay-content-2">
+                <input type="text" placeholder="Search.." name="search" style="color:black">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,145 @@
+
+    body{
+        background-color: #F1FFC9;
+    }
+.navbar{
+	background-color: #46575E ;
+}
+
+.top-nav-collapse {
+    background-color: #46575E;
+}
+
+   @media only screen and (max-width: 768px) {
+
+  .dfd-g ul{
+    margin-left: 0px;
+  }
+    .qwq{
+      height: 80%;
+  }
+  .suret{
+    display:none;
+  }
+
+
+}
+
+.dfd{
+  margin-left: 70px;
+  font-size: 102%;
+	display: flex;
+  width: 25%;
+  justify-content: space-around;
+
+}
+.logo{
+  font-family: 'Istok Web', sans-serif;
+  color: #46575E;
+}
+.nav-link{
+  font-family: 'Istok Web', sans-serif;
+}
+
+.qwq{
+ height: 100%;
+ background-image: url("https://talknerdy2me.org/wp-content/uploads/2019/02/01-workplace-stress-one-thing.jpg");
+ background-position: center;
+ background-size: cover;
+ width: 100%;
+ clip-path: polygon(10% 0, 100% 0, 100% 100%, 26% 100%);
+ margin-left: 52px;
+}
+
+
+
+.trapezoid {
+
+  height: 200px;
+clip-path: polygon(15% 0, 100% 0, 100% 100%, 30% 100%);
+  background-color: #F2EE7A;
+}
+
+.trapezoid-2 {
+
+height: 200px;
+background: linear-gradient(-45deg, #95A383 70.5%, white 70.5%,white  73%,#F2EE7A 17%);
+clip-path: polygon(30% 0, 100% 0, 100% 100%,3% 100%);
+
+}
+
+.trapezoid-3{
+height: 250px;
+  clip-path: polygon(3% 0, 100% 0, 100% 100%, 37% 100%);
+background: linear-gradient(45deg, #F2EE7A 31%,white 31% ,white 33%, #84DCC6 33%);
+
+}
+
+.l{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.suret{
+  width: 500px;
+  text-align: center;
+  height: 500px;
+  margin-top: 40px;
+  z-index: 1;
+  position: absolute;
+}
+.suret img{
+  width: 450px;
+  height: 350px;
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+.lgo{
+  margin-left: 450px;
+  margin-top: 60px;
+  font-size: 270%;
+  color: #F4BF45;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+}
+
+.proz{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+}
+.num{
+  margin-left: 450px;
+  margin-top: 70px;
+  font-size: 150%;
+  color: white;
+}
+
+.step{
+  display: flex;
+  flex-direction: row;
+}
+
+.step1{
+}
+
+.stolb1{
+  background-color: orange;
+  color: white;
+  width: 60%;height: 60px;border: 1px solid ;
+
+}
+
+.tabus{
+  font-size: 140%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.fasa{
+  margin-right: 10px;
+  padding-bottom: 13px;
+  font-size: 10px;
+}

@@ -1,0 +1,695 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+.header-h{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.gumb{
+    font-family: 'Comfortaa', cursive;
+}
+
+.row-h{
+
+  flex-wrap: wrap;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  justify-content:space-around;
+
+ }*:focus,
+*:active,
+a:active,
+a:focus,
+button:focus,
+button:active {
+    -moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+
+.social-h{
+  width: 50%;
+  display: flex;
+justify-content:flex-end;
+  align-items: flex-end;
+
+}
+.row-2{
+  width: 85%;
+  display: flex;
+}
+.logo-hh{
+    text-decoration:none;
+    }
+
+.logo-h{
+  width: 50%;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-weight: 800;
+  font-size: 30px;
+}
+.logo-h a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: #1A2D23;
+}
+.logo-in{
+  font-family: 'Oswald', sans-serif;
+  color:yellow;
+}
+
+
+
+.social-2{
+  width: 30%;
+  display: flex;
+}
+.social-2 a{
+  text-decoration: none;
+  margin-right: 2px;
+  text-align: center;
+  line-height: 2;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid #CAC4C3;
+}
+
+
+.fa {
+  font-size: 100%;
+  text-align: center;
+  }
+
+
+.fa-facebook:hover {
+  color: white;
+  background-color: #D2B48C;
+  opacity:0.6;
+}
+.fa-instagram:hover {
+    color: white;
+    background-color: #D2B48C;
+    opacity:0.6;
+}
+.fa-vk:hover {
+    color: white;
+    background-color: #D2B48C;
+    opacity:0.6;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-instagram{
+  color: black;
+}
+.fa-vk{
+  color: black;
+}
+
+.header-2{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  width: 100%;
+  background-color: #46575e;
+
+  }
+#menu{
+  display: flex;
+
+
+    height: 100%;
+
+
+}
+#menu a{
+    height: 100%;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.btn-h {
+  font-family: 'Comfortaa', cursive;
+  background-color: #46575e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 13px;
+
+}
+
+
+
+
+
+
+ .btn-h:hover {
+
+  background-color:46575e;
+  color: #1A2D23;
+
+}
+.search-h{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-2{
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
+
+/* The content */
+.overlay-content {
+
+  position: relative;
+  top: 46%;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* Style the search field */
+.overlay input[type=text] {
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.overlay button {
+  float: right;
+  width: 20%;
+  padding: 20px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  background:white;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background:#46575e;
+  color:white;
+
+}
+#overlay-content-2{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.title-u{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+
+
+
+
+.cardu{
+
+  position: relative;
+  cursor: pointer;
+  width: 350px;
+  height: 300px;
+}
+.frontu,.backu{
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.frontu img{
+  width: 100%;
+  height: 100%;
+}
+.frontu{
+  transform: perspective(600px) rotateY(0deg);
+}
+.backu{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.backu div{
+  height: 100%;
+  width: 100%;
+}
+.back-contentu{
+  color: #2c3e50;
+  text-align: center;
+
+}
+.back-contentu img{
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.cardu:hover > .frontu{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.cardu:hover > .backu{
+  transform: perspective(600px) rotateY(0deg);
+}
+.titleu{
+
+  font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    bottom:-4%;
+    background-color:#EFC946;
+
+    color:black;
+        font-family: 'Comfortaa', cursive;
+
+}
+.infou{
+
+   font-size: 14px;
+    position: absolute;
+    top: 30%;
+    margin-left: 10px;font-family: 'Oswald', sans-serif;
+}
+.cardsu{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.middleu{
+
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.main-image img{
+  margin-top:-10px;
+  width: 100%;
+vertical-align: middle;
+    height: 700px;
+}
+.uslugi{
+  height:auto;
+
+}
+
+.info-main{
+  width: 100%;
+  height: 250px;
+}
+.main-1{
+  background-color: #EEF2F7;
+}
+.main-2{
+  background-color: yellow;
+}
+.main-3{
+  background-color:#1A2D23;
+  color: white;
+}
+
+.info-jil-2{
+  font-size: 120%;
+  font-family: 'Lora', serif;
+}
+
+
+
+
+.btn-infou{
+  margin-top: 40px;
+  flex: 1 1 auto;
+  padding: 10px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color:black;
+  opacity: 0.8;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+
+.btn-infou:hover {
+  background-position: right center;
+  color: black;
+}
+
+.btn-1-info {
+  background-image: linear-gradient(to right, #98C1D6 0%, #98C1D6 51%, #98C1D6 100%);
+}
+.uzu{
+  height: 200px;
+}
+
+.p-info{
+
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+}
+
+.footer-info{
+
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.work-time{
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+}
+
+.address-info{
+  margin-left: 30px;
+  width: 320px;
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+}
+.text-address{
+  margin-left: 30px;
+}
+.about-info{
+  width: 320px;
+  font-family: 'Poiret One', cursive;
+  font-size: 15px;
+}
+.modular-footer-text{
+  font-size: 25px;
+  font-family: 'Krona One', sans-serif;
+}
+footer{
+	margin-top: 100px;
+	background-color: #1A2D23;
+	color: white;
+}
+footer a{
+	color: yellow;
+}
+.logo-in-footer{
+
+     font-family: 'Krona One', sans-serif;
+     color:#D2B48C
+}
+
+.information-text{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:17px;
+}
+.ser{
+height:60px;
+}
+
+
+.siteHeader {
+  /**
+   * Lay out the children of this container with
+   * flexbox, which is horizontal by default.
+   */font-family: 'Comfortaa', cursive;
+    background-color:#46575E;
+  display: flex;
+
+
+  /**
+   * Make the container put as much space as possible
+   * between its children, with the children at either
+   * end laying flush against the container's edges.
+   */
+  justify-content: space-between;
+
+  padding: 10px;
+
+}
+
+  .siteHeader__section {
+    /**
+     * Lay out the children of this container with
+     * flexbox.
+     */
+
+    display: flex;
+
+    /**
+     * Align the children in the center, along
+     * the main axis. By default the children will
+     * align along their top edges.
+     */
+    align-items: center;
+  }
+
+    .siteHeader__item {
+    margin-left:60px;
+      padding: 5px 15px;
+      font-size: 17px;
+    }
+
+    .siteHeader__item + .siteHeader__item {
+      margin-left: 5px;
+    }
+
+    .siteHeader__item.is-site-header-item-selected {
+      color: #FFFFFF;
+      background-color: #415F69;
+      border-radius: 4px;
+    }
+
+    .siteHeaderLogo {
+      font-size: 20px;
+      line-height: 0;
+      color: white;
+    }
+
+    .siteHeaderButton {
+      cursor: pointer;
+      color: #D9E9EF;
+    }
+
+    body{
+        background-color: #F1FFC9;
+    }
+.navbar{
+	background-color: #46575E ;
+}
+
+.top-nav-collapse {
+    background-color: #46575E;
+}
+
+@media only screen and (max-width: 768px) {
+	#navbarSupportedContent{
+        background-color: #46575E;
+
+	}
+  .dfd-g ul{
+    margin-left: 0px;
+  }
+    .qwq{
+      height: 80%;
+  }
+
+}
+
+
+.dfd{
+  margin-left: 70px;
+  font-size: 102%;
+	display: flex;
+  width: 25%;
+  justify-content: space-around;
+
+}
+.logo{
+  font-family: 'Istok Web', sans-serif;
+  color: #46575E;
+}
+.nav-link{
+  font-family: 'Istok Web', sans-serif;
+}
+
+
+
+
+
+.qwq{
+  height: 100%;
+ background-image: url("https://talknerdy2me.org/wp-content/uploads/2019/02/01-workplace-stress-one-thing.jpg");
+ background-position: center;
+ background-size: cover;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+  margin-left: 30px;
+  }
+
+
+
+.trapezoid {
+
+height: 200px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+  background-color: #F2EE7A;
+}
+
+.trapezoid-2 {
+
+height: 200px;
+background: linear-gradient(-45deg, #95A383 73%, white 73%,white  75%,#F2EE7A 5%);
+clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.trapezoid-3{
+height: 117px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+background: linear-gradient(46deg, #F2EE7A 17.5%,white 17.5% ,white 20.6%,#84DCC6 20.5%);
+
+}
+
+.l{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.suret{
+  width: 40%;
+  text-align: center;
+  height: 60%;
+  margin-top: 40px;
+  z-index: 1;
+  position: absolute;
+}
+.suret img{
+  width: 100%;
+  height: 100%;
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+.lgo{
+  margin-left: 300px;
+  margin-top: 60px;
+  font-size: 270%;
+  color: #F4BF45;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+}
+
+.proz{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+}
+.num{
+  margin-left: 300px;
+  margin-top: 10px;
+  font-size: 150%;
+  color: white;
+}
+
+.step{
+  display: flex;
+  flex-direction: row;
+}
+
+.step1{
+}
+
+.stolb1{
+  background-color: orange;
+  color: white;
+  width: 60%;height: 60px;border: 1px solid ;
+  margin-left: 130px;
+}
+
+.tabus{
+  font-size: 140%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-left: 130px;
+}
+
+.fasa{
+  margin-right: 10px;
+  padding-bottom: 13px;
+  font-size: 10px;
+}

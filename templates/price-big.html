@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'style_index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap1.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!--  start js-->
+    <script src="{% static 'search.js' %}"></script>
+    <script src="{% static 'main.js' %}"></script>
+
+    <!--  end js-->
+    <!--  start css-->
+    <link rel="stylesheet"  href="{% static 'style.css' %}">
+    <link rel="stylesheet"  href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet"  href="{% static 'style3.css' %}">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'style_index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap1.css' %}">
+    <!--  end css-->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'bootstrap.css' %}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'contact.css' %}" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<div   style="font-family: 'Exo 2', sans-serif; background-color:#99ffcc; padding:60px;">
+
+    <div class="container" >
+        <h1 class="mt-4 mb-3" style="font-family: 'Exo 2', sans-serif; ">
+            Прайс
+		<div style="margin-left:900px; color:#ffdb4d;">MODULAR.KZ</div>
+
+        </h1>
+    </div>
+</div>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="breadcrumb-main">
+        <ol class="breadcrumb"style="background-color:#95A383;">
+            <li class="breadcrumb-item">
+                <a href="{% url 'index_page' %}" style="font-family: 'Exo 2', sans-serif;">Главная</a>
+            </li>
+            <li class="breadcrumb-item active" style="font-family: 'Exo 2', sans-serif;">
+                <a href="{% url 'price_20_url' %}" style="font-family: 'Exo 2', sans-serif;">Прайс из 5 - 20 футовых контейнеров</a>
+            </li>
+            <li class="breadcrumb-item active" style="font-family: 'Exo 2', sans-serif;">
+                <a href="{% url 'price_40_url' %}" style="font-family: 'Exo 2', sans-serif;">Прайс из 40 футовых контейнеров</a>
+            </li>
+        </ol>
+    </div>
+
+
+    <div class="container-fluid">
+
+
+
+
+        <div class="row step">
+
+            <div class="col-lg-6 step1" >
+
+                <div class="text-center stolb1"style="background-color:#95A383">
+                    <h5 style="margin-top: 16px;font-size:14px;font-family: 'Montserrat', sans-serif;">
+                        Из 40 футовых контейнеров
+                    </h5>
+                </div>
+                <table class="tabus">
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">1.Жилье</td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">2.Дачи</td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">3.Коммерческое</td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">4.Баня , Сауна</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">5.Мини гостиница</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">6.Точка розничной торговли</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">7.Склад , мастерская</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">8.Мобильный офис</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">9.Кафе , Бары , Кофейные Будки.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">10.Творческая студия</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="col-lg-6 step2">
+
+
+                <div class="stolb1 text-center"style="background-color:#95A383">
+                    <h5 style="margin-top: 16px;font-size:14px;font-family: 'Montserrat', sans-serif;">
+                        Базовый контейнер
+                    </h5>
+                </div>
+                <table class="tabus">
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">От : 2 000 000 KZT</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">До : 3 200 000 KZT</td>
+                    </tr>
+
+
+                </table>
+
+
+                <div class="stolb1 text-center"style="background-color:#95A383">
+                    <h5 style="margin-top: 12px;font-size:14px;font-family: 'Montserrat', sans-serif;">
+                        Готовый утепленный контейнер мебелью
+                    </h5>
+                </div>
+
+
+                <table class="tabus">
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">От : 2 500 000 KZT</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">До : 3 500 000 KZT</td>
+                    </tr>
+
+
+                </table>
+
+                <div class="stolb1 text-center"style="background-color:#95A383">
+                    <h5 style="margin-top: 11px;font-size:14px;font-family: 'Montserrat', sans-serif;">
+                        Готовый утепленный контейнер c вашим Дизайном
+                    </h5></div>
+
+
+                <table class="tabus">
+
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">От : 2 000 000 KZT</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-square-o fasa" aria-hidden="true"></i></td>
+                        <td style="font-family: 'Comfortaa', cursive;">До : 7 000 000 KZT</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
